@@ -431,3 +431,11 @@ error:
 
 #endif // ACVP_NO_RUNTIME
 
+#ifdef __INFER__
+BN_CTX *BN_CTX_new() {
+    return malloc(1);
+}
+void BN_CTX_free(BN_CTX *x) {
+    free(x);
+}
+#endif
