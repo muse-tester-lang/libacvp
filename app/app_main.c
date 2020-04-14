@@ -220,7 +220,6 @@ int main(int argc, char **argv)
     int kdf = 0;
     int dsa = 0;
     /*
-     * these require the fom, off by default
      */
     int rsa = 0;
     int drbg = 0;
