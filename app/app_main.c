@@ -223,7 +223,6 @@ int main(int argc, char **argv)
      */
     int rsa = 0;
     int drbg = 0;
-    int ecdsa = 1;
 
     if (argc > 3) {
         print_usage();
